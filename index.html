@@ -130,12 +130,32 @@
 </li>
 </ul>
 <hr>
+<h2 id="推送至远端"><a href="#推送至远端" class="headerlink" title="推送至远端"></a>推送至远端</h2><p>博客系统部署成功之后需要将其部署至远端运行，由于此系统是静态博客所以只要将渲染好的网页推送出去就行了，通常所采用的远端仓库为github和gitee</p>
+<ul>
+<li>安装插件：cnpm install –save hexo-deployer-git</li>
+<li>更改配置文件：vim _config.yml<ul>
+<li>deploy:</li>
+<li>type: ‘git’</li>
+<li>repo: 仓库地址</li>
+<li>branch: master</li>
+</ul>
+</li>
+<li>部署：hexo d<ul>
+<li>在部署过程中会弹出登陆提示，此时输入远端仓库的账号和密码即可完成推送</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>可选用模板进行配置，此处推荐yilia</p>
+<ul>
+<li>命令：git clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</li>
+</ul>
 <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty">https://www.bilibili.com/video/BV1Yb411a7ty</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/06/07/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" data-id="ckpm825m90001zzjj9drh4kif" data-title="hexo博客搭建" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/06/07/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" data-id="ckpma7sls0001cfjjgqxxf3wr" data-title="hexo博客搭建" class="article-share-link">Share</a>
       
       
       
@@ -186,7 +206,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/06/07/hello-world/" data-id="ckpm825m40000zzjjalln3h03" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/06/07/hello-world/" data-id="ckpma7sli0000cfjj2vrxffac" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
